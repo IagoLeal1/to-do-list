@@ -1,0 +1,11 @@
+strong{
+  justify-content: space-between;
+}
+
+strong .create{
+  background-color: var(--blue);
+}
+
+strong .done{
+  background-color: var(--purple);
+}

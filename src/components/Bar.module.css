@@ -1,0 +1,48 @@
+.barForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transform: translateY(-50%);
+}
+
+.barForm input {
+  width: 736px;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  resize: none;
+  height: 3.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--gray-300);
+  line-height: 1.4;
+}
+
+.barForm input:focus{
+  border: 1px solid var(--purple);
+  outline: none;
+}
+
+.barForm button[type='submit'] {
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  border: 0;
+  background: var(--bluedark);
+  color: var(--white);
+  cursor: pointer;
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+strong {
+  gap: 10rem;
+}
+
+strong .create{
+  color: var(--blue);
+}
+strong .done{
+  color: var(---purple);
+}
